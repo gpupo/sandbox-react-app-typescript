@@ -1,5 +1,6 @@
 import React from 'react';
-import {UserHelper} from './_helpers/user.helper';
+import {DateHelper, UserHelper} from './helpers';
+
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <UserHelper firstName="Foo" lastName="Bar" />
+        <p>Now: <em>{DateHelper.now()}</em></p>
       </header>
     </div>
   );

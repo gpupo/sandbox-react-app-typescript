@@ -7,3 +7,5 @@ export type UserProps = {
 
 export const UserHelper: FunctionComponent<UserProps> = ({ firstName, lastName = 'Bar' }) => 
     <h3>Hello { firstName } { lastName }!</h3>
+
+export default UserHelper;

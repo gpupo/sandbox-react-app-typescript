@@ -21,6 +21,11 @@ e com apoio adicional, sua versão [traduzida para português](https://github.co
 
 Na falta de um guia interno para a convenção de nomes, seguimos a [convenção de nomes do guia Angular](https://angular.io/guide/styleguide#naming)/[source](https://github.com/angular/angular/blob/master/aio/content/guide/styleguide.md) para guia quanto aos nomes dos arquivos, de objetos e a organização deles.
 
+* Arquivos precisam *ser* Pascal-cased
+* Código simples usa extension .ts
+* Cada namespace deve conter um index.ts aglutinando os objetos;
+
+
 **Do** use consistent names for all symbols.
 **Do** follow a pattern that describes the symbol's feature then its type. The recommended pattern is `feature.type.ts`.
 **Why?** Naming conventions help provide a consistent way to find content at a glance. Consistency within the project is vital. Consistency with a team is important. Consistency across a company provides tremendous efficiency.
