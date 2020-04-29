@@ -1,6 +1,6 @@
 # Sandbox de projeto React usando Typescript
 
-Você pode usar esse projeto para testes simples de conceito.
+Você pode usar esse [projeto sandbox](https://opensource.gpupo.com/sandbox-react-app-typescript/) para testes simples de conceito.
 
     git clone git@github.com:gpupo/sandbox-react-app-typescript.git;
     cd sandbox-react-app-typescript;
@@ -11,11 +11,19 @@ Você pode usar esse projeto para testes simples de conceito.
 
 ### Javascript 
 
-A estrutura do código deve observer o [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+A estrutura do **código** deve observer o [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 e com apoio adicional, sua versão [traduzida para português](https://github.com/armoucar/javascript-style-guide).
 
-https://angular.io/guide/styleguide#naming
+É importante adequar a escrita aos [Do's and Don'ts](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html) TypeScript.
 
+### Nomes
+
+Na falta de um guia interno para a convenção de nomes, seguimos a [convenção de nomes do guia Angular](https://angular.io/guide/styleguide#naming) para guia quanto aos nomes dos arquivos, de objetos e a organização deles.
+
+
+## Documentação
+
+* [typescriptlang](https://www.typescriptlang.org/docs/home.html)
 
 
 ---
