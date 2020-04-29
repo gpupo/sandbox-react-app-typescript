@@ -19,7 +19,7 @@ e com apoio adicional, sua versão [traduzida para português](https://github.co
 
 ### Nomes
 
-Na falta de um guia interno para a convenção de nomes, seguimos a [convenção de nomes do guia Angular](https://angular.io/guide/styleguide#naming) para guia quanto aos nomes dos arquivos, de objetos e a organização deles.
+Na falta de um guia interno para a convenção de nomes, seguimos a [convenção de nomes do guia Angular](https://angular.io/guide/styleguide#naming)/[source](https://github.com/angular/angular/blob/master/aio/content/guide/styleguide.md) para guia quanto aos nomes dos arquivos, de objetos e a organização deles.
 
 **Do** use consistent names for all symbols.
 **Do** follow a pattern that describes the symbol's feature then its type. The recommended pattern is `feature.type.ts`.
@@ -85,23 +85,15 @@ As always, strive for consistency.
 
 **Why?** Service names such as `Credit` are nouns and require a suffix and should be named with a suffix when it is not obvious if it is a service or something else.
 
- **Symbol Name** | **File Name**
- ----------------|--------------------------------------- 
-
-@Injectable\(\)
-export class HeroDataService \{ \}|hero\-data\.service\.ts
- 
-@Injectable\(\)
-export class CreditService \{ \}|credit\.service\.ts
- 
-@Injectable\(\)
-export class Logger \{ \}   |logger\.service\.ts
-
+**Symbol Name**                                                                         | **File Name**               
+-----------------------------------------------------------------------------------------|-----------------------------
+@Injectable\(\) export class HeroDataService \{ \}                                       |hero\-data\.service\.ts
+@Injectable\(\) export class CreditService \{ \}                                         |credit\.service\.ts
+@Injectable\(\) export class Logger \{ \}                                                |logger\.service\.ts
 
 ### Testes
 
 A cada push nesse repositório é executado a [action](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions) que instalará os pacotes de dependência e [rodará os tests](https://facebook.github.io/create-react-app/docs/running-tests).
-
 
 ## Documentação
 
